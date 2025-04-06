@@ -1,4 +1,4 @@
-package uz.pdp.student_management;
+package uz.pdp.student_management.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

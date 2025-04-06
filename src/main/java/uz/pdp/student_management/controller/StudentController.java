@@ -4,7 +4,7 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import uz.pdp.student_management.ApiResponse;
+import uz.pdp.student_management.common.ApiResponse;
 import uz.pdp.student_management.dto.StudentDTO;
 import uz.pdp.student_management.dto.StudentResponse;
 import uz.pdp.student_management.model.Student;

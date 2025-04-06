@@ -8,13 +8,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import uz.pdp.student_management.ApiResponse;
+import uz.pdp.student_management.common.ApiResponse;
 import uz.pdp.student_management.dto.StudentDTO;
 import uz.pdp.student_management.dto.StudentResponse;
 import uz.pdp.student_management.model.Student;
 import uz.pdp.student_management.repository.StudentRepository;
 
-import java.awt.print.Pageable;
 import java.util.List;
 import java.util.UUID;
 
