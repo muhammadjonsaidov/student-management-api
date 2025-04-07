@@ -10,4 +10,4 @@ Simple RESTful API for managing students using Spring Boot and PostgreSQL.
 ## How to run
 - Clone the project
 - Update PostgreSQL credentials in `application.yml`
-- Run using: `StudentManagementApplication`
+- Run using: `StudentManagementApplication.java`
