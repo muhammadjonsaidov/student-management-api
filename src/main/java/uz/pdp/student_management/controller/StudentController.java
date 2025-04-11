@@ -1,7 +1,7 @@
 package uz.pdp.student_management.controller;
 
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import uz.pdp.student_management.common.ApiResponse;
@@ -14,15 +14,10 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-//@RequiredArgsConstructor
+@RequiredArgsConstructor
 @RequestMapping("/api/students")
 public class StudentController {
     private final StudentService studentService;
-
-    @Autowired
-    public StudentController(StudentService studentService) {
-        this.studentService = studentService;
-    }
 
     @PostMapping
     public ResponseEntity<ApiResponse<StudentResponse>> createStudent(@RequestBody @Valid StudentDTO dto) {
